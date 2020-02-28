@@ -59,12 +59,12 @@ if("HypeAnimationFrame" in window === false) window['HypeAnimationFrame'] = (fun
     					var startTime = then;
 	  				var frameAction = function (time) {
 	  					now = performance.now();
-		    			elapsed = now - then;
-		    			if (elapsed > fpsInterval) {
-		    				then = now - (elapsed % fpsInterval);
-		    				callback.call(scope,time);
-		    			}
-		    			rAF_Instances[hypeDocId][rAFiD] = window.requestAnimationFrame(frameAction);
+		    				elapsed = now - then;
+		    				if (elapsed > fpsInterval) {
+		    					then = now - (elapsed % fpsInterval);
+		    					callback.call(scope,time);
+		    				}
+		    				rAF_Instances[hypeDocId][rAFiD] = window.requestAnimationFrame(frameAction);
 	  				}
 				} else {
 					/* regular version */
