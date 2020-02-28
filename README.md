@@ -7,7 +7,7 @@
 
 ### Usage
 
-This is a Hype AnimationFrame, a wrapper for requestAnimation frame that cleans up after itself made for Tumult Hype.
+This is Hype AnimationFrame, a wrapper for requestAnimation frame that cleans up after itself made for Tumult Hype.
 
 **Online Example:**
 [HypeAnimationFrame.html](https://playground.maxziebell.de/Hype/AnimationFrame/HypeAnimationFrame.html)
