@@ -55,8 +55,8 @@ if("HypeAnimationFrame" in window === false) window['HypeAnimationFrame'] = (fun
 				if (config.framerate) {
 					/* fps version */
 					var fpsInterval = 1000 / config.framerate;
-    				var then = -1;
-    				var startTime = then;
+    					var then = -1;
+    					var startTime = then;
 	  				var frameAction = function (time) {
 	  					now = performance.now();
 		    			elapsed = now - then;
