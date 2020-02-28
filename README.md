@@ -1,6 +1,6 @@
 # HypeAnimationFrame
 
-![Hype-AnimationFrame|690x487](https://playground.maxziebell.de/Hype/AnimationFrame/HypeAnimationFrame_1.jpg)
+![Hype-AnimationFrame|690x487](https://playground.maxziebell.de/Hype/AnimationFrame/HypeAnimationFrame_1.jpg#)
 <sup>The cover artwork is not hosted in this repository and &copy;opyrighted by Max Ziebell</sup>
 
 
