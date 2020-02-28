@@ -105,7 +105,7 @@ if("HypeAnimationFrame" in window === false) window['HypeAnimationFrame'] = (fun
 	window.HYPE_eventListeners.push({"type":"HypeDocumentLoad", "callback":extendHype});
 	window.HYPE_eventListeners.push({"type":"HypeSceneUnload", "callback":sceneUnload});
 
-	/* Reveal Public interface to window['HypeGlobalBehavior'] */
+	/* Reveal Public interface to window['HypeAnimationFrame'] */
 	return {
 		version: '1.2',
 		'stopAnimationFrameByHypeDocumentId' : stopAnimationFrameByHypeDocumentId,
