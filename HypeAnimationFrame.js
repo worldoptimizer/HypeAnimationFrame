@@ -107,7 +107,7 @@ if("HypeAnimationFrame" in window === false) window['HypeAnimationFrame'] = (fun
 
 	/* Reveal Public interface to window['HypeAnimationFrame'] */
 	return {
-		version: '1.2',
+		version: '1.3',
 		'stopAnimationFrameByHypeDocumentId' : stopAnimationFrameByHypeDocumentId,
 		'stopAllAnimationFramesByHypeDocumentId' : stopAllAnimationFramesByHypeDocumentId,
 		'stopAllAnimationFrames' : stopAllAnimationFrames
