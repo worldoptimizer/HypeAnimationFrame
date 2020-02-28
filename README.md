@@ -9,6 +9,12 @@
 
 This is Hype AnimationFrame, a wrapper for requestAnimation frame that cleans up after itself made for Tumult Hype.
 
+Use `framerate` on the config object to set it up.
+
+**Visual explaination of `framerate`** 
+*(example represents a framerate of 30 vs. 60 frames with regular animation frames)*:
+![001|690x517](https://forums.tumult.com/uploads/db2156/original/3X/1/3/13ee3b9f02827976dcc187e62a69dfb5794ae900.jpeg)
+
 **Online Example:**
 [HypeAnimationFrame.html](https://playground.maxziebell.de/Hype/AnimationFrame/HypeAnimationFrame.html)
 
