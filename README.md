@@ -23,8 +23,8 @@ This is Hype AnimationFrame, a wrapper for requestAnimation frame that cleans up
 	hypeDocument.startAnimationFrame(function(time){
 		// your code goes here and executes once per frame
 	},{
-		framerate: 30,		/* framerate 1-60 */
-		id: 'myTicker',		/* ID for managing, defaults to callback if not anonymous */
+		framerate: 30,	/* framerate 1-60 */
+		id: 'myTicker',	/* ID for managing, defaults to callback if not anonymous */
 		scope: window,	/* defines scope of execution, defaults to hypeDocument */
 		
 	});
