@@ -25,7 +25,7 @@ This is Hype AnimationFrame, a wrapper for requestAnimation frame that cleans up
 	},{
 		framerate: 30,		/* framerate 1-60 */
 		id: 'myTicker',		/* ID for managing, defaults to callback if not anonymous */
-		scope: hypeDocument,		/* allows to override scope of execution, defaults to window */
+		scope: hypeDocument,	/* allows to override scope of execution, defaults to window */
 		
 	});
 ```
