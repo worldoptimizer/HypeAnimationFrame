@@ -9,6 +9,29 @@
 
 This is Hype AnimationFrame, a wrapper for requestAnimation frame that cleans up after itself made for Tumult Hype.
 
+**Basic usage:**
+
+``` javascript
+	hypeDocument.startAnimationFrame(function(time){
+		// your code goes here and executes once per frame
+	});
+```
+
+**Advanced usage (with all options):**
+
+``` javascript
+	hypeDocument.startAnimationFrame(function(time){
+		// your code goes here and executes once per frame
+	},{
+		framerate: 30,		/* framerate 1-60 */
+		id: 'myTicker',		/* ID for managing, defaults to callback if not anonymous */
+		scope: hypeDocument,		/* allows to override scope of execution, defaults to window */
+		
+	});
+```
+
+
+
 **Online Example:**
 [HypeAnimationFrame.html](https://playground.maxziebell.de/Hype/AnimationFrame/HypeAnimationFrame.html)
 
@@ -26,7 +49,7 @@ Latest version can be linked into your project using the following in the head s
 ```
 
 Optionally you can also link a SRI version or specific releases. 
-Read more about that on the JsDelivr (CDN) page for this extension at https://www.jsdelivr.com/package/gh/worldoptimizer/HypeCommandPipeline
+Read more about that on the JsDelivr (CDN) page for this extension at https://www.jsdelivr.com/package/gh/worldoptimizer/HypeAnimationFrame
 
 Learn how to use the latest extension version and how to combine extensions into one file at
 https://github.com/worldoptimizer/HypeCookBook/wiki/Including-external-files-and-Hype-extensions
